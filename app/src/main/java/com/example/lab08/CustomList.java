@@ -18,5 +18,11 @@ public class CustomList {
         if (city == null) return false;
         return cities.contains(city);
     }
+    public void deleteCity(City city) {
+        if (!cities.remove(city)) {
+            throw new IllegalArgumentException("city not in list");
+        }
+    }
+    
 }
 
