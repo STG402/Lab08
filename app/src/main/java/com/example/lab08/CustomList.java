@@ -23,6 +23,6 @@ public class CustomList {
             throw new IllegalArgumentException("city not in list");
         }
     }
-    
+
 }
 
